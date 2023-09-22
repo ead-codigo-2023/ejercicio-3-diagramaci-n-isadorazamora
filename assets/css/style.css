@@ -69,7 +69,9 @@ footer {
     text-align: center; /* Centrar el contenido del pie de página */
 }
 
-
+.imagecss {
+    border-radius: 10px;
+}
 
 
 #zen-resources {
@@ -92,6 +94,7 @@ footer {
   /* Estilos para los elementos de lista */
   li {
     margin-bottom: 10px; /* Espacio entre elementos de lista */
+    padding-left: 10px;
   }
   
   /* Estilos para los enlaces */
