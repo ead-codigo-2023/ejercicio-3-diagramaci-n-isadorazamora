@@ -1,6 +1,7 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
+
     
 }
 #css-zen-garden {
@@ -9,26 +10,30 @@ body{
     margin: 0;
     padding: 0;
     color: rgb(105, 105, 105);
+    
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 .page-wrapper {
     padding: 20px; /* Espaciado interior del contenedor */
-    grid-template-columns: 3fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 3fr 2fr  2fr;
+    grid-template-rows: auto 100px 100px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+
 }
 
 
 
 
 .intro {
-    background-color: rgb(88, 110, 88); /* Cambia el color de fondo del encabezado */
+    background-color: rgb(145, 27, 43); /* Cambia el color de fondo del encabezado */
     color:rgb(197, 197, 197); /* Cambia el color de texto del encabezado */
-    padding: 20px; /* Espaciado interior del encabezado */
+    padding: 10px; /* Espaciado interior del encabezado */
     border-radius: 10px;
+
 }
 
 
@@ -48,12 +53,14 @@ header{
     padding: 20px; /* Espaciado interior de la sección */
     margin-top: 20px; /* Espacio superior entre secciones */
     color:rgb(105, 105, 105);
-    grid-column: 2/4 3/4 4/4;
+    grid-template-columns: 2/3;
     border-radius: 10px;
 }
 
+
+
 .preamble{
-    grid-column: 1/4;
+    grid-template-columns: 1/3;
 }
 
 .summary p {
@@ -63,10 +70,11 @@ header{
 
 
 footer {
-    background-color: rgb(88, 110, 88); /* Cambia el color de fondo del pie de página */
+    background-color: rgb(204, 72, 94); /* Cambia el color de fondo del pie de página */
     color: white; /* Cambia el color de texto del pie de página */
-    padding: 10px; /* Espaciado interior del pie de página */
+    padding: 20px; /* Espaciado interior del pie de página */
     text-align: center; /* Centrar el contenido del pie de página */
+    
 }
 
 .imagecss {
@@ -94,7 +102,7 @@ footer {
   /* Estilos para los elementos de lista */
   li {
     margin-bottom: 10px; /* Espacio entre elementos de lista */
-    padding-left: 10px;
+    
   }
   
   /* Estilos para los enlaces */
@@ -103,7 +111,11 @@ footer {
     color: rgb(47, 54, 47); /* Cambia el color de texto de los enlaces según tu preferencia */
   }
   
-  /* Estilos para los enlaces al pasar el mouse */
+  .imagecsst {
+    border-radius: 10px;
+
+  }
+
   a:hover {
     text-decoration: underline; /* Subraya los enlaces al pasar el mouse */
   }
