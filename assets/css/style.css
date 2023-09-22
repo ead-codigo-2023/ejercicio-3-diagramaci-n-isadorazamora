@@ -1,0 +1,99 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#css-zen-garden {
+    font-family: Verdana, Geneva, Tahoma, sans-serif /* Cambia la fuente de texto según tus preferencias */
+    background-color: rgb(224, 224, 224); /* Cambia el color de fondo según tus preferencias */
+    margin: 0;
+    padding: 0;
+    color: rgb(105, 105, 105);
+}
+
+
+.page-wrapper {
+    max-width: 960px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido en el centro de la página */
+    padding: 20px; /* Espaciado interior del contenedor */
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+
+
+
+.intro {
+    background-color: rgb(88, 110, 88); /* Cambia el color de fondo del encabezado */
+    color:rgb(197, 197, 197); /* Cambia el color de texto del encabezado */
+    padding: 20px; /* Espaciado interior del encabezado */
+    border-radius: 10px;
+}
+
+
+.intro h1 {
+    font-size: 36px; /* Tamaño de fuente para h1 */
+    margin: 0;
+}
+
+.intro h2 {
+    font-size: 24px; /* Tamaño de fuente para h2 */
+    margin: 0;
+}
+
+
+.summary {
+    background-color: rgb(224, 224, 224); /* Cambia el color de fondo de la sección */
+    padding: 20px; /* Espaciado interior de la sección */
+    margin-top: 20px; /* Espacio superior entre secciones */
+    color:rgb(105, 105, 105);
+}
+
+
+.summary p {
+    margin: 0;
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+
+footer {
+    background-color: rgb(88, 110, 88); /* Cambia el color de fondo del pie de página */
+    color: white; /* Cambia el color de texto del pie de página */
+    padding: 10px; /* Espaciado interior del pie de página */
+    text-align: center; /* Centrar el contenido del pie de página */
+}
+
+
+
+
+#zen-resources {
+    background-color: rgb(173, 177, 173); /* Cambia el color de fondo según tu preferencia */
+    padding: 20px;
+    color: rgb(37, 37, 37); /* Cambia el color del texto según tu preferencia */
+    border-radius: 5px; /* Añade bordes redondeados al contenedor del menú */
+  }
+  
+  .resources {
+    font-size: 1.2em; /* Cambia el tamaño de fuente del encabezado */
+  }
+  
+  /* Estilos para la lista desordenada */
+  ul {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de lista */
+  li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    color: rgb(47, 54, 47); /* Cambia el color de texto de los enlaces según tu preferencia */
+  }
+  
+  /* Estilos para los enlaces al pasar el mouse */
+  a:hover {
+    text-decoration: underline; /* Subraya los enlaces al pasar el mouse */
+  }
+  
