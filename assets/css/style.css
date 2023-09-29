@@ -1,119 +1,67 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-
-    
-}
-#css-zen-garden {
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    background-color: rgb(224, 224, 224); 
-    margin: 0;
-    padding: 0;
-    color: rgb(105, 105, 105);
-    
+body {
+  background-color: #e0e0e0;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 
 
-.page-wrapper {
-    padding: 20px; /* Espaciado interior del contenedor */
+h1 {
+  font-size: 90px;
+  color: whitesmoke;
+  background-color: #9e9e9e;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 10em;
+  word-break: break-all;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+h2{
+  color: rgb(37, 37, 37);
+  text-align: center;
+  font-family: sans-serif;
+  word-spacing: 5px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: lighter;
 
 }
 
-
-
-
-.intro {
-    background-color: rgb(145, 27, 43); /* Cambia el color de fondo del encabezado */
-    color:rgb(197, 197, 197); /* Cambia el color de texto del encabezado */
-    padding: 10px; /* Espaciado interior del encabezado */
-    border-radius: 10px;
+h3{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-
-.intro h1 {
-    font-size: 36px; /* Tamaño de fuente para h1 */
-    margin: 0;
+.summary{
+  text-align: center;
+  color: rgb(37, 37, 37);
 }
 
-.intro h2 {
-    font-size: 24px; /* Tamaño de fuente para h2 */
-    margin: 0;
+.sidebar .wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
 
+.mainsupporting{
 
-.summary {
-    background-color: rgb(224, 224, 224); /* Cambia el color de fondo de la sección */
-    padding: 20px; /* Espaciado interior de la sección */
-    margin-top: 20px; /* Espacio superior entre secciones */
-    color:rgb(105, 105, 105);
-    border-radius: 10px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 650px);
+  grid-template-rows: repeat(2, 440px);
+ 
+
 }
 
-
-
-.preamble{
+.mainsupporting p{
+  text-align: justify;
+  font-size: 14px;
 }
 
-.summary p {
-    margin: 0;
-    line-height: 1.5; /* Espaciado entre líneas */
-}
-
-
-footer {
-    background-color: rgb(204, 72, 94); /* Cambia el color de fondo del pie de página */
-    color: white; /* Cambia el color de texto del pie de página */
-    padding: 20px; /* Espaciado interior del pie de página */
-    text-align: center; /* Centrar el contenido del pie de página */
-    
-}
-
-.imagecss {
-    border-radius: 10px;
-}
-
-
-#zen-resources {
-    background-color: rgb(173, 177, 173); /* Cambia el color de fondo según tu preferencia */
-    padding: 20px;
-    color: rgb(37, 37, 37); /* Cambia el color del texto según tu preferencia */
-    border-radius: 5px; /* Añade bordes redondeados al contenedor del menú */
-  }
-  
-  .resources {
-    font-size: 1.2em; /* Cambia el tamaño de fuente del encabezado */
-  }
-  
-  /* Estilos para la lista desordenada */
-  ul {
-    list-style-type: none; /* Quita los puntos de lista */
-    padding: 0;
-  }
-  
-  /* Estilos para los elementos de lista */
-  li {
-    margin-bottom: 10px; /* Espacio entre elementos de lista */
-    
-  }
-  
-  /* Estilos para los enlaces */
-  a {
-    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
-    color: rgb(47, 54, 47); /* Cambia el color de texto de los enlaces según tu preferencia */
-  }
-  
-  .imagecsst {
-    border-radius: 10px;
-
-  }
-
-  a:hover {
-    text-decoration: underline; /* Subraya los enlaces al pasar el mouse */
-  }
-
-  .design-selection{
-    padding: 30px;
-  }
-  
